@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PLACETOGROW-WIKI</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/index.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+    .code-block {
+        margin-bottom: 20px;
+    }
+    .code-container {
+        position: relative;
+        background-color: #f4f4f4;
+        border-radius: 4px;
+        padding: 1em;
+        margin: 1em 0;
+        overflow-x: auto;
+    }
+    .code-container pre {
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    .code-container code {
+        display: block;
+        padding: 10px;
+        font-family: monospace;
+    }
+    .copy-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">PLACETOGROW</span><span class="text-bold">WIKI</span>
+                        </a>
+                    </h1>
+
+                </div>
+            </div>
+        </header>
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Guía del proyecto</h1>
+                    <div class="meta"><i class="far fa-clock"></i> última actualización: Julio 15 2024</div>
+                </div>
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="changelog" class="doc-section">
+                                <h2 class="section-title">ChangeLog</h2>
+
+                                <div id="html" class="section-block">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button style="background-color: #73bd7ec9;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Versión v1.0.0 - CRUD para Micrositios y Categorías
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    <p><strong>Descripción:</strong> Esta versión introduce la implementación completa de operaciones CRUD para Micrositios y Categorías. Las características clave y las actualizaciones incluyen:</p>
+                                                    <h4>Nuevas Funcionalidades</h4>
+                                                    <ul>
+                                                        <li>CRUD de Micrositios:
+                                                            <ul>
+                                                                <li>Operaciones de Crear, Leer, Actualizar y Eliminar para gestionar micrositios.</li>
+                                                                <li>Integración con los frameworks de front-end Inertia.js y React.js.</li>
+                                                                <li>Soporte para carga y eliminación de imágenes.</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>CRUD de Categorías:
+                                                            <ul>
+                                                                <li>Operaciones de Crear, Leer, Actualizar y Eliminar para gestionar categorías.</li>
+                                                                <li>Selección de categorías integrada en los formularios de creación y actualización de micrositios.</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <h4>Mejoras</h4>
+                                                    <ul>
+                                                        <li>Refinamiento del código siguiendo los principios SOLID y estándares PSR.</li>
+                                                        <li>Mejora de la experiencia del usuario con validaciones intuitivas de formularios y manejo de errores.</li>
+                                                        <li>Corrección de varios errores menores relacionados con envíos de formularios y validaciones de datos.</li>
+                                                    </ul>
+                                                    <h4>Detalles Técnicos</h4>
+                                                    <ul>
+                                                        <li>Frameworks y Bibliotecas: Laravel 11, PHP 8.2, Inertia.js, React.js, Tailwind CSS.</li>
+                                                        <li>Migraciones de Base de Datos: Incluye migraciones necesarias para nuevas tablas y relaciones.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    <div class="code-block">
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+
+
+                            </section>
+                            <section id="api-documentation" class="doc-section">
+                                <h2 class="section-title">Documentación de API ("/api")</h2>
+                                <div id="module-category" class="section-block">
+                                    <h3 class="block-title">Módulo Categoría</h3>
+                                    <p>El módulo "Categoría" sirve como un sistema de clasificación para los
+                                        micrositios en la plataforma. Su principal función es organizar y etiquetar los
+                                        micrositios según sus características. Esto facilita la
+                                        navegación, búsqueda y gestión de los micrositios tanto para los administradores
+                                        como para los usuarios.
+                                    </p>
+                                    <div class="code-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Funcionalidad</th>
+                                                        <th>Descripción</th>
+                                                        <th>Método</th>
+                                                        <th>Ruta</th>
+                                                        <th>Respuesta</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Listar categorías</td>
+                                                        <td>Recupera una lista de todas las categorías.</td>
+                                                        <td>GET</td>
+                                                        <td>/category</td>
+                                                        <td>Inertia: 'Category/Index' con datos de categorías y mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Crear categoría</td>
+                                                        <td>Crea una nueva categoría.</td>
+                                                        <td>POST</td>
+                                                        <td>/category</td>
+                                                        <td>Redirección a 'category.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Obtener categoría</td>
+                                                        <td>Recupera detalles de una categoría específica.</td>
+                                                        <td>GET</td>
+                                                        <td>/category/{id}</td>
+                                                        <td>Inertia: 'Category/Show' con datos de la categoría</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Actualizar categoría</td>
+                                                        <td>Actualiza una categoria existente.</td>
+                                                        <td>PUT</td>
+                                                        <td>/category/{id}</td>
+                                                        <td>Redirección a 'category.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Eliminar categoría</td>
+                                                        <td>Elimina una categoria existente.</td>
+                                                        <td>DELETE</td>
+                                                        <td>/category/{id}</td>
+                                                        <td>Redirección a 'category.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="module-microsite" class="section-block">
+                                    <h3 class="block-title">Módulo Micrositio</h3>
+                                    <p>Los micrositios son pequeñas plataformas que los usuarios pueden registrar dentro de la aplicación. Cada micrositio permite a los usuarios gestionar su propia información y ofrece funcionalidades específicas relacionadas con diferentes tipos de pagos.
+                                    </p>
+                                    <div class="code-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Funcionalidad</th>
+                                                        <th>Descripción</th>
+                                                        <th>Método</th>
+                                                        <th>Ruta</th>
+                                                        <th>Respuesta</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Listar micrositios</td>
+                                                        <td>Recupera una lista de todas los micrositio.</td>
+                                                        <td>GET</td>
+                                                        <td>/microsites</td>
+                                                        <td>Inertia: 'Microsite/Index' con datos de micrositios y mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Crear micrositio</td>
+                                                        <td>Crea un nuevo micrositio.</td>
+                                                        <td>POST</td>
+                                                        <td>/microsites</td>
+                                                        <td>Redirección a 'microsite.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Obtener micrositio</td>
+                                                        <td>Recupera detalles de un micrositio específico.</td>
+                                                        <td>GET</td>
+                                                        <td>/microsites/{id}</td>
+                                                        <td>Inertia: 'Microsite/Show' con datos del micrositio</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Actualizar micrositio</td>
+                                                        <td>Actualiza un micrositio existente.</td>
+                                                        <td>PUT</td>
+                                                        <td>/microsites/{id}</td>
+                                                        <td>Redirección a 'microsite.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Eliminar micrositio</td>
+                                                        <td>Elimina un micrositio existente.</td>
+                                                        <td>DELETE</td>
+                                                        <td>/microsites/{id}</td>
+                                                        <td>Redirección a 'microsite.index' con mensaje de éxito</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#changelog">ChangeLog</a>
+                                </li>
+                                <nav class="nav doc-sub-menu nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link scrollto" href="#html">Registro de cambios</a>
+                                    </li>
+                                </nav>
+
+                                <li class="nav-item">
+                                    <a class="nav-link scrollto" href="#api-documentation">Documentación de API</a>
+                                </li>
+                                <nav class="nav doc-sub-menu nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link scrollto" href="#module-category"">Módulo Categoría</a>
+                                    </li>
+                                    <li class=" nav-item">
+                                            <a class="nav-link scrollto" href="#module-microsite">Módulo Micrositio</a>
+                                    </li>
+                                </nav>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="promo-block" class="promo-block">
+            <div class="container">
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a
+                    href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div>
+    </footer>
+
+    <!-- Main Javascript -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/prism/prism.js"></script>
+    <script src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
